@@ -30,7 +30,7 @@ app.options("*", cors());
 // Database connection
 
 const connectionString = process.env.MONGO_URI;
-// "mongodb+srv://HimanshuHD:1234@cluster0.vd9ua.mongodb.net/HumbleDonations?retryWrites=true&w=majority";
+
 
 const client = new MongoClient(connectionString, {
   useNewUrlParser: true,
